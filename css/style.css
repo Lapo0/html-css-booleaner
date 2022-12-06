@@ -1,9 +1,6 @@
 /*TESTATA*/
-header{
-    background-color: rgba(18, 153, 194,0.8);
-}
-
 .pattern{
+    background-color: rgba(18, 153, 194,0.8);
     height: 100px;
     background-size: contain;
     background-image: url('../img/pattern.png');
@@ -29,14 +26,14 @@ main > *{
 h1.titolo{
     margin-bottom: 0;
     font-size: 35px;
-        /*text-align: center;*/
+    /*text-align: center;*/
 }
 
     /*section > div.left{
         text-align: right;
     }*/
 
-h3 > a{
+a{
     text-decoration: none;
     color: rgb(82, 170, 228);
 }
@@ -74,12 +71,12 @@ section > table{
 
 th.quarto{
     width: 25%;
-    text-align: left;
 }
 
 table > thead{
     background-color: rgb(85, 159, 249);
     color: white;
+    text-align: left;
 }
 
 tbody tr:nth-child(odd){
