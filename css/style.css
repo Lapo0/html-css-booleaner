@@ -15,8 +15,9 @@ header{
     background-image: url('../img/logo.svg');
     background-repeat: no-repeat;
     background-size: 200px;
-    background-position: left;
-    padding-top: 30px;
+        /*background-position: left;
+        padding-top: 30px;*/
+    background-position: center;
 }
 
 /*CORPO PAGINA*/
@@ -28,7 +29,12 @@ main > *{
 h1.titolo{
     margin-bottom: 0;
     font-size: 35px;
+        /*text-align: center;*/
 }
+
+    /*section > div.left{
+        text-align: right;
+    }*/
 
 h3 > a{
     text-decoration: none;
@@ -49,7 +55,7 @@ div .gray{
 /*IMMAGINI DI TIM*/
 
 section.tim > img{
-    height: 350px;
+    height: 300px;
 }
 
 
